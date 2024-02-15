@@ -3,9 +3,9 @@ import StudentDashboard from "../pagesForStudents/StudentDashboard";
 import Layout from "../components/layout/Layout";
 import Assignment from "../pagesForStudents/Assignment";
 import MySubjects from "../pagesForStudents/MySubjects";
-import Profile from "../pagesForStudents/Profile";
 import Article from "../pagesForStudents/Article";
 import TimeTable from "../pagesForStudents/TimeTable";
+import StudentProfile from "../pagesForStudents/StudentProfile";
 
 export const studentRouter = createBrowserRouter([
   {
@@ -20,7 +20,7 @@ export const studentRouter = createBrowserRouter([
       },
       {
         path: "/your-profile",
-        element: <Profile/>
+        element: <StudentProfile/>
       },
       {
         path: "/articles",
