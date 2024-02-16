@@ -56,9 +56,10 @@ const StudentDashboard = () => {
         </div>
        </div>
 
-        <div className='w-[40%] h-[100%]  border border-slate-200  rounded-lg'><p className='m-4 text-blue-900 font-medium'>My Performance</p></div>
+        <div className='w-[40%] h-[100%]  border border-slate-200  rounded-lg'><p className='m-4 text-blue-900 font-medium'>My Performance</p>
+        </div>
     </div>
   )
 }
 
-export default StudentDashboard
+export default StudentDashboard;

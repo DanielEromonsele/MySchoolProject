@@ -6,6 +6,7 @@ import MySubjects from "../pagesForStudents/MySubjects";
 import Article from "../pagesForStudents/Article";
 import TimeTable from "../pagesForStudents/TimeTable";
 import StudentProfile from "../pagesForStudents/StudentProfile";
+import WeeklyReport from "../pagesForStudents/WeeklyReport";
 
 export const studentRouter = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ export const studentRouter = createBrowserRouter([
       {
         path: "/assignment",
         element: <Assignment/>
+      },
+      {
+        path: "/report",
+        element: <WeeklyReport/>
       },
     ]
   },
